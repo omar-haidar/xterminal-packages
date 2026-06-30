@@ -1,9 +1,9 @@
 Build plugins and openbabel library statically, but build binaries
 as dynamically linked binaries so that they remain
 dynamically linked to these shared libraries:
-/data/data/com.termux/files/usr/lib/libxml2.so.16
-/data/data/com.termux/files/usr/lib/libz.so.1
-/data/data/com.termux/files/usr/lib/libc++_shared.so
+/data/data/dev.omar.xterminal/files/usr/lib/libxml2.so.16
+/data/data/dev.omar.xterminal/files/usr/lib/libz.so.1
+/data/data/dev.omar.xterminal/files/usr/lib/libc++_shared.so
 /system/lib64/libdl.so
 /system/lib64/libc.so
 /system/lib64/ld-android.so

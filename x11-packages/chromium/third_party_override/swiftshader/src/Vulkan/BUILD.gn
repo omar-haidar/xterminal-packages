@@ -5,9 +5,9 @@ action("swiftshader_libvulkan") {
   output_file = "${root_build_dir}/${_lib_name}"
   script = "//v8/tools/run.py"
   args = [
-    "bash", "-c", 
+    "bash", "-c",
     "cp -f" + " " +
-    "/data/data/com.termux/files/usr/opt/chromium-host-tools/$_lib_name" + " " +
+    "/data/data/dev.omar.xterminal/files/usr/opt/chromium-host-tools/$_lib_name" + " " +
     "$output_file",
   ]
   outputs = [ output_file ]
@@ -18,9 +18,9 @@ action("icd_file") {
   output_icd_file = "${root_out_dir}/${_icd_file_name}"
   script = "//v8/tools/run.py"
   args = [
-    "bash", "-c", 
+    "bash", "-c",
     "cp -f" + " " +
-    "/data/data/com.termux/files/usr/opt/chromium-host-tools/$_icd_file_name" + " " +
+    "/data/data/dev.omar.xterminal/files/usr/opt/chromium-host-tools/$_icd_file_name" + " " +
     "$output_icd_file",
   ]
   outputs = [ output_icd_file ]
